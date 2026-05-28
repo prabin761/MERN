@@ -95,10 +95,42 @@ input::placeholder {
     background-color: beige;
     height: 88vh;
     width: 20%;
+    padding-top: 2rem;
 }
-.left-navigation-item{
+.left-navigation-wrapper{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    align-items: flex-start;
+}
+.left-navigation-icons{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+    gap: 2rem;
+}
+.left-navigation-icons i{
+    font-size: 1.5rem;
+}
+.left-navigation-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+main{
+    width: 60%;
+    background-color: bisque;
+}
+
+.story-wrapper{
+    
+}
+.story-image{
+    height: 8rem;
+    width: 6rem;
+}
+.story-image img{
+    height: 100%;
+    width: 100%;
+    object-position: center;
 }
