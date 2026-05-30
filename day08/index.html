@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <link rel="stylesheet" href="./styles/index.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
   <body>
     <main>
       <header>
@@ -121,7 +121,7 @@
       </div>
 
       <section class="categories-wrapper">
-        <p>
+        <p class="title">
           <i class="fa-solid fa-tags"></i>
           Categories
         </p>
@@ -178,7 +178,87 @@
         </div>
       </section>
 
-      <section class="chance"></section>
+      <section class="chance">
+        <div class="chance-left">
+          <p class="chance-title title">
+            <i class="fa-solid fa-headphones"></i>
+            Don't miss chance
+          </p>
+          <h3>Enhance Your Music Experience</h3>
+          <div class="circles">
+            <div class="circle">
+              <h4>0</h4>
+              <p>days</p>
+            </div>
+            <div class="circle">
+              <h4>00</h4>
+              <p>hours</p>
+            </div>
+            <div class="circle">
+              <h4>00</h4>
+              <p>minuts</p>
+            </div>
+            <div class="circle">
+              <h4>00</h4>
+              <p>seconds</p>
+            </div>
+          </div>
+          <button class="chance-btn btn">check it out</button>
+        </div>
+        <div class="chance-right">
+          <figure>
+            <img src="./images/poster-03.png" alt="" class="chance-img" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="product-section">
+        <div class="products">
+          <div class="wrapper-product">
+            <p>
+              <i class="fa-solid fa-bucket"></i>
+              our proucts
+            </p>
+            <h3>Explore our Products</h3>
+          </div>
+          <div class="arrows arrows-products">
+            <i class="fa-solid fa-arrow-left-long"></i>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="prod-container">
+          <div class="prod prod1">
+            <p class="discount">20% off</p>
+            <div class="hidden">
+              <i class="fa-solid fa-eye"></i>
+              <button class="btn hidden-btn">add to cart</button>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+          <div class="prod prod2">
+            <div class="hidden">
+              <i class="fa-solid fa-eye"></i>
+              <button class="btn hidden-btn">add to cart</button>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+          <div class="prod prod3">
+            <p class="discount">20% off</p>
+            <div class="hidden">
+              <i class="fa-solid fa-eye"></i>
+              <button class="btn hidden-btn">add to cart</button>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+          <div class="prod prod4">
+            <div class="hidden">
+              <i class="fa-solid fa-eye"></i>
+              <button class="btn hidden-btn">add to cart</button>
+              <i class="fa-solid fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
