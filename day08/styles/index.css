@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --header-button-color: #82b440;
+  --header-bg-color: #262626;
+  --bg-color-dark: #ff497c;
+  --btn-primaru: #3577f0;
+  --bg-color-secondary: #f9f3f0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+img:hover {
+  cursor: pointer;
+}
+.btn{
+  border:none;
+  padding: 10px 20px;
+  background-color: gainsboro;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.container {
+  background-color: var(--bg-color-secondary);
+  height: 100vh;
+}
+header{
+  background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 4rem;
+}
+header figure{
+  height: 2rem;
+  width: 9rem;
+}
+header figure img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.header-btn{
+  padding: 0.5rem 2rem;
+  background-color: var(--header-button-color);
+  border-radius: 10px;
+}
+.header-btn:hover{
+  background-color: #82b440f1;
+}
+.container{
+  padding: 5rem 10rem 0 10rem;
+}
+.top-nav{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.top-nav-left p{
+  display: inline;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.fa-angle-down{
+  font-size: 10px;
+  color: gray;
+}
+
+.top-nav-right a{
+  margin-left: 2.5rem;
+  color: gray;
+}
+.top-nav-right a:hover{
+  color: var(--btn-primaru);
+}
+
+nav{
+  height: 5rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-radius: 0.9rem;
+  position: sticky;
+  top: 5rem;
+}
+.pages-link a{
+  margin-right: 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.pages-link a:hover{
+  padding-bottom: 8px;
+  border-bottom: 2px solid black;
+}
+.pages-link a i{
+  color: var(--header-bg-color);
+}
+.icons i{
+  margin-left: 10px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.31s ease-in-out;
+}
+
+.icons i:hover{
+  background-color: var(--bg-color-dark);
+  color: white;
+  border-radius: 50%;
+}
