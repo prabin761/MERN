@@ -238,3 +238,54 @@ h1 {
 .categories-wrapper > p {
   color: var(--bg-color-dark);
 }
+.browse {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.browse h3 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.arrows .fa-solid {
+  padding: 10px 20px;
+  background-color: rgb(223, 217, 217);
+}
+.arrows .fa-solid:hover{
+  background-color: rgba(223, 217, 217, 0.823);
+  color: gray;
+}
+.arrows {
+  display: inline;
+}
+.fa-arrow-left-long {
+  margin-right: 20px;
+}
+
+.categories {
+  margin-top: 50px;
+  display: flex;
+  gap: 14px;
+}
+.cat-item {
+  background-color: #fff;
+  padding: 30px 30px;
+  box-shadow: 1px 1px 20px 7px rgba(233, 225, 225, 0.4);
+  border-radius: 4px;
+}
+.cat-item:hover {
+  transform: scale(1.05);
+}
+.cat-item figure {
+  height: 60px;
+  width: 100px;
+}
+.cat-item figure img {
+  height: 100%;
+  width: 100%;
+}
+.cat-item p{
+  text-align: center;
+  margin-top: 20px;
+}
