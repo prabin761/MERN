@@ -130,7 +130,7 @@ nav {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.31s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .icons i:hover {
@@ -525,4 +525,220 @@ h3 {
 
 .view-all:hover {
   transform: scale(1.05);
+}
+.feedback {
+  padding: 5rem 10rem 4rem 10rem;
+  margin-top: 5rem;
+  background-color: var(--bg-color-secondary);
+}
+.message-wrapper {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+.message > p {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+.person {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.person figure {
+  height: 50px;
+  width: 80px;
+}
+.person figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid rgb(154, 98, 98);
+}
+.p-det {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.post {
+  color: gray;
+}
+.new-arrival {
+  padding: 4rem 10rem 0 10rem;
+  background-color: #f6f7fb;
+}
+.new-arrival .product {
+  margin-bottom: 20px;
+}
+.arrival-btn {
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+.new-arrival-wrapper {
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
+}
+.figure-container:hover .image {
+  transform: scale(1.1);
+}
+.new-arrival figure {
+  height: 250px;
+  width: 250px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.new-arrival figure img {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}
+.new-arrival-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.arrival-icons i {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  color: #82b440;
+  border: 1px solid #f6f7fb;
+  padding: 5px;
+  text-align: center;
+}
+.arrival-icons i:hover {
+  border-radius: 50%;
+  background-color: white;
+  border-color: #82b440;
+}
+.arrival-title {
+  margin-bottom: 10px;
+}
+.arrival-price {
+  color: gray;
+  font-size: 25px;
+  font-weight: bold;
+}
+.arrival-bottom i,
+.arrival-bottom .arrival-btn {
+  margin-left: 10px;
+}
+.arrival-bottom i {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.arrival-btn:hover {
+  transform: scale(1.02);
+}
+
+.most-sold {
+  padding: 6rem 10rem 0 10rem;
+  background-color: #f6f7fb;
+}
+.text-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.text-wrapper p i {
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  background-color: #6794e8;
+  border-radius: 50%;
+}
+.text-wrapper > p {
+  color: #6794e8;
+}
+.text-wrapper h4 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.sold-item-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.sold-item figure {
+  height: 100px;
+  width: 100px;
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+.item-figure {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}
+.sold-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 49%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  transition: transform 0.4s ease-in;
+}
+.sold-item:hover .item-figure{
+  transform: scale(1.1);
+}
+.sold-item:hover{
+   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  border: none;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.stars i {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+.ratings span {
+  font-size: 14px;
+  color: gray;
+  font-weight: bolder;
+  margin-left: -2px;
+}
+.sold-item-details .title {
+  font-size: 14px;
+  color: gray;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+.sold-item-details del {
+  font-size: 14px;
+  color: gray;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.right i {
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
 }
