@@ -646,7 +646,7 @@ h3 {
 }
 
 .most-sold {
-  padding: 6rem 10rem 0 10rem;
+  padding: 6rem 10rem 0rem 10rem;
   background-color: #f6f7fb;
 }
 .text-wrapper {
@@ -673,6 +673,8 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  border-bottom: 2px solid rgba(220, 220, 220, 0.789);
+  padding-bottom: 5rem;
 }
 .sold-item figure {
   height: 100px;
@@ -696,11 +698,11 @@ h3 {
   border: 1px solid gainsboro;
   transition: transform 0.4s ease-in;
 }
-.sold-item:hover .item-figure{
+.sold-item:hover .item-figure {
   transform: scale(1.1);
 }
-.sold-item:hover{
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+.sold-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
   border: none;
 }
 .wrapper {
@@ -741,4 +743,117 @@ h3 {
   padding: 5px 10px;
   border-radius: 5px;
   border: 1px solid gainsboro;
+}
+
+.why-us {
+  padding: 3rem 10rem 0 10rem;
+}
+.top-text {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.top-text p {
+  color: var(--bg-color-dark);
+  margin-bottom: 30px;
+}
+.top-text i {
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 5px 5px;
+  color: white;
+  background-color: var(--bg-color-dark);
+  border-radius: 50%;
+}
+.selection-reason-container {
+  display: flex;
+  gap: 25px;
+}
+.selection-region {
+  background-color: #fff;
+  border: 1px solid gainsboro;
+  text-align: center;
+  padding: 40px 60px 40px 60px;
+  /* padding-left: 60px;
+  padding-right: 60px; */
+  border-radius: 10px;
+}
+.selection-region:hover {
+  position: relative;
+  bottom: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.selection-region p {
+  width: 100px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.special {
+  padding: 5rem 10rem 0 10rem;
+  display: flex;
+  gap: 80px;
+}
+
+.banner-left {
+  background-color: #173c74;
+  position: relative;
+  border-radius: 10px;
+}
+
+.banner-right {
+  background: #061d2e;
+  position: relative;
+  border-radius: 10px;
+}
+.banner-left,
+.banner-right {
+  width: 700px;
+}
+.banner-circle {
+  background: linear-gradient(rgb(233, 5, 5), rgb(5, 5, 210));
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: 95px;
+  right: 40px;
+}
+.banner-img {
+  height: 150px;
+  position: absolute;
+  top: 100px;
+  right: 40px;
+  transition: transform 0.5s ease-out;
+}
+.banner-left:hover .banner-img,
+.banner-right:hover .banner-img {
+  top: 130px;
+  transform: scale(1.5);
+}
+.banner-content {
+  width: 300px;
+  color: white;
+  text-align: end;
+  padding: 50px 0px 50px 30px;
+}
+.banner-content h2 {
+  font-size: 40px;
+  color: white;
+}
+.banner-right .banner-content h2 {
+  margin-bottom: 20px;
+}
+.collectons {
+  color: white;
+}
+.banner-content p {
+  margin-bottom: 30px;
+}
+.last {
+  background-color: #d9dde9;
+  padding: 0rem 10rem 0 10rem;
+  margin-top: 5rem;
+  height: 100px;
 }
