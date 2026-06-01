@@ -829,7 +829,7 @@ h3 {
 }
 .banner-left:hover .banner-img,
 .banner-right:hover .banner-img {
-  top: 130px;
+  top: 80px;
   transform: scale(1.5);
 }
 .banner-content {
@@ -853,7 +853,55 @@ h3 {
 }
 .last {
   background-color: #d9dde9;
-  padding: 0rem 10rem 0 10rem;
-  margin-top: 5rem;
-  height: 100px;
+  margin: 2rem 10rem 0 10rem;
+  text-align: end;
+  border-radius: 5px;
+}
+.last-container{
+  padding: 100px 80px 20px 10px;
+}
+.last-container p{
+  color: #3577f0;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.last-container i{
+  padding: 5px;
+  color: white;
+  background-color: var(--btn-primaru);
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.last-container h3{
+  font-weight: bolder;
+  color: black;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+.last-btn{
+  border: none;
+  border-radius: 5px;
+  background-color: var(--header-bg-color);
+  color: white;
+  font-weight: bolder;
+  padding: 20px 60px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+}
+.last-btn:hover{
+  transform: scale(1.05);
+}
+.last input{
+  padding: 20px 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 20px;
+  width: 400px;
+}
+.last input::placeholder{
+  color: #7f7a7a;
+  font-size: 14px;
 }
