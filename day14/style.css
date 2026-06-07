@@ -434,3 +434,50 @@ input::placeholder {
   top: 3rem;
   left: 45%;
 }
+.footer-container{
+  margin: 0 auto;
+}
+.footer-content{
+  color: #1c2123;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo img{
+  width: 400px;
+  height: 50px;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  object-fit: contain;
+  object-position: center;
+}
+.wrapper{
+  display: flex;
+  gap: 10rem;
+  line-height: 2rem;
+}
+.footer-strong span{
+  display: block;
+}
+.footer-strong{
+  margin-top: 50px;
+}
+.left span{
+  display: block;
+}
+.left p{
+  margin-bottom: 1rem;
+}
+.footer-trad{
+  color: #1c2123;
+  margin-top: 10rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-trad-right strong{
+  font-size: 60px;
+  font-weight: bold;
+}
