@@ -63,6 +63,7 @@ img {
 .nav {
   display: flex;
   justify-content: space-between;
+  background: rgba(255,255,255,0.01);
   align-items: center;
   padding-top: 2rem;
   z-index: 10;
@@ -110,10 +111,48 @@ img {
   font-weight: bolder;
 }
 .overlay-text {
-    margin-top: 5rem;
+  margin-top: 5rem;
   font-size: 70px;
   padding: 5rem 10rem;
   border: 20px solid white;
   border-left: transparent;
   border-right: transparent;
+}
+
+.have-it{
+  background-color: var(--dark-bgc);
+  padding-top: 8rem;
+  position: relative;
+}
+.have-it hr{
+  border: 2px solid var(--button-primary-color);
+}
+.have-it-top{
+  color: var(--button-primary-color);
+  padding: 0 1rem;
+  font-weight: bolder;
+  background-color: var(--dark-bgc);
+  position: absolute;
+  top: 7.5rem;
+  left: 45%;
+}
+.have-it-wrapper{
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.have-it-left strong{
+  font-size: 80px;
+  font-weight: bolder;
+  display: block;
+  line-height: 7rem;
+}
+.colored-text{
+  color: var(--button-third-color);
+}
+
+.have-it .big-text{
+  font-size: 150px;
 }
